@@ -5,7 +5,7 @@ This module contains base classes for dictionaries.
 import abc
 import os
 import numpy as np
-from pysentiment.utils import Tokenizer
+from pysentiment2.utils import Tokenizer
 
 
 STATIC_PATH = os.path.join(os.path.dirname(__file__), 'static')

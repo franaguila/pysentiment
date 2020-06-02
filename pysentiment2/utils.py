@@ -24,7 +24,7 @@ class BaseTokenizer(object, metaclass=abc.ABCMeta):
 
 class Tokenizer(BaseTokenizer):
     """
-    The default tokenizer for ``pysentiment``, which only takes care of words made up of ``[a-z]+``.
+    The default tokenizer for ``pysentiment2``, which only takes care of words made up of ``[a-z]+``.
     The output of the tokenizer is stemmed by ``nltk.PorterStemmer``. 
     
     The stoplist from https://www3.nd.edu/~mcdonald/Word_Lists.html is included in this
@@ -44,7 +44,7 @@ class Tokenizer(BaseTokenizer):
         return tokens
         
     def get_stopset(self):
-        from pysentiment.base import STATIC_PATH
+        from pysentiment2.base import STATIC_PATH
         files = ['Currencies.txt', 'DatesandNumbers.txt', 'Generic.txt', 'Geographic.txt',
                  'Names.txt']
         stopset = set()

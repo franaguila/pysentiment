@@ -1,7 +1,7 @@
 import unittest
 import numpy as np
-from pysentiment.hiv4 import HIV4
-from pysentiment.lm import LM
+from pysentiment2.hiv4 import HIV4
+from pysentiment2.lm import LM
 
 
 class TestDict(unittest.TestCase):
@@ -58,9 +58,9 @@ Even if the government succeeds in reforming local policies, convincing investor
         tokens = lm.tokenize(self.text)
         score= lm.get_score(tokens)
         self.assertEqual(score['Positive'], 16)
-        self.assertEqual(score['Negative'], 36)
-        self.assertTrue(np.isclose(score['Polarity'], -0.3846153772189351))
-        self.assertTrue(np.isclose(score['Subjectivity'], 0.11134903616413483))
+        self.assertEqual(score['Negative'], 35)
+        self.assertTrue(np.isclose(score['Polarity'], -0.37254901230296056))
+        self.assertTrue(np.isclose(score['Subjectivity'], 0.10920770854559378))
 
 
 if __name__ == "__main__":

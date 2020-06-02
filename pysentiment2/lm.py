@@ -1,5 +1,5 @@
 import pandas as pd
-from pysentiment.base import STATIC_PATH, BaseDict
+from pysentiment2.base import STATIC_PATH, BaseDict
 
 
 class LM(BaseDict):
