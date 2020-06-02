@@ -1,0 +1,3 @@
+pysentiment2
+pandas
+nltk>=2.0

@@ -1,0 +1,43 @@
+pysentiment2 package
+====================
+
+.. automodule:: pysentiment2
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+pysentiment2.base module
+------------------------
+
+.. automodule:: pysentiment2.base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pysentiment2.hiv4 module
+------------------------
+
+.. automodule:: pysentiment2.hiv4
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pysentiment2.lm module
+----------------------
+
+.. automodule:: pysentiment2.lm
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pysentiment2.utils module
+-------------------------
+
+.. automodule:: pysentiment2.utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
