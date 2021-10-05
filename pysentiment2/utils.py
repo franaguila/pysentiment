@@ -39,8 +39,7 @@ class Tokenizer(BaseTokenizer):
         tokens = []
         for t in nltk.regexp_tokenize(text.lower(), '[a-z]+'):
             t = self._stemmer.stem(t)
-            if not t in self._stopset:
-                tokens.append(t)
+            tokens.append(t)
         return tokens
         
     def get_stopset(self):
