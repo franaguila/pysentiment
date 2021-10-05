@@ -23,18 +23,12 @@ See also http://www.cs.sunysb.edu/~skiena/lydia/
 
 ## Getting Started
 
-Install `pysentiment2`:
-
 ```
-pip install pysentiment2
+pip install pysentiment3
 ```
-
-A simple example:
 
 ```python
-import pysentiment2
-
-# Do something with pysentiment2
+import pysentiment3
 ```
 
 ## Usage
@@ -42,7 +36,7 @@ import pysentiment2
 To use the Harvard IV-4 dictionary, create an instance of the `HIV4` class
 
 ```python
-import pysentiment2 as ps
+import pysentiment3 as ps
 hiv4 = ps.HIV4()
 tokens = hiv4.tokenize(text)  # text can be tokenized by other ways
                                   # however, dict in HIV4 is preprocessed
@@ -50,25 +44,17 @@ tokens = hiv4.tokenize(text)  # text can be tokenized by other ways
 score = hiv4.get_score(tokens)
 ```
 
-`HIV4` is a subclass for `pysentiment2.base.BaseDict`. `BaseDict` can be inherited by 
+`HIV4` is a subclass for `pysentiment3.base.BaseDict`. `BaseDict` can be inherited by 
 implmenting `init_dict` to initialize `_posset` and `_negset` for the dictionary
 to calculate 'positive' or 'negative' scores for terms.
 
 Similarly, to use the Loughran and McDonald dictionary:
 ```python
-import pysentiment2 as ps
+import pysentiment3 as ps
 lm = ps.LM()
 tokens = lm.tokenize(text)
 score = lm.get_score(tokens)
 ```
 
-## Links
 
-See the
-[documentation here.](
-https://nickderobertis.github.io/pysentiment/
-)
-
-## Author
-
-`pysentiment2` created by Nick DeRobertis but based on `pysentiment` by Zhichao Han. GNU GPL License.
+Largely based on `pysentiment2` created by Nick DeRobertis and based on `pysentiment` by Zhichao Han. GNU GPL License.
