@@ -2,16 +2,16 @@
 # Sphinx configuration is in the docsrc folder
 
 # Main package name
-PACKAGE_NAME = "pysentiment2"
+PACKAGE_NAME = "pysentiment3"
 
 # Directory name of package
-PACKAGE_DIRECTORY = "pysentiment2"
+PACKAGE_DIRECTORY = "pysentiment3"
 
 # Name of Repo
 REPO_NAME = "pysentiment"
 
 # Github username of the user which owns the repo
-REPO_USERNAME = "nickderobertis"
+REPO_USERNAME = "franaguila"
 
 # List of maintainers of package, by default the same user which owns the repo
 # Pull requests raised by these maintainers without the "no auto merge" label will be automatically merged
@@ -31,10 +31,10 @@ PACKAGE_SHORT_DESCRIPTION = "Sentiment Analysis in Python using a Dictionary App
 PACKAGE_DESCRIPTION = 'auto'
 
 # Author
-PACKAGE_AUTHOR = "Nick DeRobertis"
+PACKAGE_AUTHOR = "Fran Aguila"
 
 # Author email
-PACKAGE_AUTHOR_EMAIL = "whoopnip@gmail.com"
+PACKAGE_AUTHOR_EMAIL = "francescaaguila@gmail.com"
 
 # Name of license for package
 PACKAGE_LICENSE = 'MIT'
@@ -106,7 +106,7 @@ SCRIPTS = []
 # Optional Google Analytics tracking ID for documentation
 # Go to https://analytics.google.com/ and set it up for your documentation URL
 # Set to None or empty string to not use this
-GOOGLE_ANALYTICS_TRACKING_ID = "UA-168191835-1"
+GOOGLE_ANALYTICS_TRACKING_ID = ""
 
 PACKAGE_URLS = {
     'Code': f'https://github.com/{REPO_USERNAME}/{REPO_NAME}',
