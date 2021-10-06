@@ -5,13 +5,13 @@ This module contains base classes for dictionaries.
 import abc
 import os
 import numpy as np
-from pysentiment2.utils import Tokenizer
+from pysentiment3.utils import Tokenizer
 
 STATIC_PATH = os.path.join(os.path.dirname(__file__), 'static')
 
 
 def negated(word):
-    from pysentiment2.base import STATIC_PATH
+    from pysentiment3.base import STATIC_PATH
     text_file = open('%s/%s' % (STATIC_PATH, 'NegationWords.txt'), 'rb')
     negate = text_file.read().decode("utf-8").splitlines()
     negate = [w.lower() for w in negate]
