@@ -1,5 +1,5 @@
 import unittest
-from pysentiment3.utils import Tokenizer
+from pysent3.utils import Tokenizer
 
 
 class TestTokenizer(unittest.TestCase):

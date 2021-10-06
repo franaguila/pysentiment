@@ -1,7 +1,7 @@
 import unittest
 import numpy as np
-from pysentiment3.hiv4 import HIV4
-from pysentiment3.lm import LM
+from pysent3.hiv4 import HIV4
+from pysent3.lm import LM
 
 
 class TestDict(unittest.TestCase):

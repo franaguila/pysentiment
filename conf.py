@@ -2,10 +2,10 @@
 # Sphinx configuration is in the docsrc folder
 
 # Main package name
-PACKAGE_NAME = "pysentiment3"
+PACKAGE_NAME = "pysent3"
 
 # Directory name of package
-PACKAGE_DIRECTORY = "pysentiment3"
+PACKAGE_DIRECTORY = "pysent3"
 
 # Name of Repo
 REPO_NAME = "pysentiment"

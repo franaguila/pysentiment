@@ -1,5 +1,5 @@
 import pandas as pd
-from pysentiment3.base import STATIC_PATH, BaseDict
+from pysent3.base import STATIC_PATH, BaseDict
 
 
 class HIV4(BaseDict):
