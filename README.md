@@ -24,11 +24,11 @@ See also http://www.cs.sunysb.edu/~skiena/lydia/
 ## Getting Started
 
 ```
-pip install pysentiment3
+pip install pysent3
 ```
 
 ```python
-import pysentiment3
+import pysent3
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ import pysentiment3
 To use the Harvard IV-4 dictionary, create an instance of the `HIV4` class
 
 ```python
-import pysentiment3 as ps
+import pysent3 as ps
 hiv4 = ps.HIV4()
 tokens = hiv4.tokenize(text)  # text can be tokenized by other ways
                                   # however, dict in HIV4 is preprocessed
@@ -50,7 +50,7 @@ to calculate 'positive' or 'negative' scores for terms.
 
 Similarly, to use the Loughran and McDonald dictionary:
 ```python
-import pysentiment3 as ps
+import pysent3 as ps
 lm = ps.LM()
 tokens = lm.tokenize(text)
 score = lm.get_score(tokens)
